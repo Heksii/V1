@@ -1,4 +1,5 @@
-#Simple website made with HTML about various edible plants.
+# GronneDromme
+## Simple website made with HTML about various edible plants.
 
 ![image](https://user-images.githubusercontent.com/65017693/134312649-ed502e97-422c-485d-b367-5638db598c4d.png)
 ![image](https://user-images.githubusercontent.com/65017693/134312678-7d81af3a-a8d7-4339-8075-161e7329a7cd.png)
