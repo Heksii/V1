@@ -1,50 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grønne Drømme</title>
 </head>
 <body>
-    <h1>Grønne Drømme</h1>
-    <p>Velkommen til vores website for haveentusiaster.</p>
-    
-    <img src="img/Forside-hoejbed1.jpg" alt="Forside billede" style="width:800px;">
-    
-    <section>
-        <article>
-            <p>Siden indeholder informationer om planter, der kan dyrkes i danske haver - 
-            både grøntsager, krydderurter, blomster og træer.  Det primære fokus ligger dog på spiselige planter.</p>
-            <p>Vi brænder for at være selvforsynende og håber, at vi kan inspirere andre til at gå i samme retning - 
-             det påvirker både din families sundhed og vores alles klima i en positiv retning.</p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h2>Plantedatabasen</h2>
+    <header>
+        <h1>Grønne Drømme</h1>
+        <h2>Velkommen til vores website for haveentusiaster.</h2>
+    </header>
 
-            <p> Vores plantedatabase vokser dag for dag og indeholder al den information, 
-            som du har brug for, hvis du vil dyrke dine egne planter.</p> 
-            <p>Hvis du mangler informationer om en plante, 
-            opdager forkerte informationer eller mangler en plante, 
-            er du velkommen til at skrive til os på <a href="mailto:info@gronnedromme.dk">info@gronnedromme.dk.</a>
-            En del af vore informationer er fra <a href="https://da.wikipedia.org/wiki/Forside">den danske wikipedia.</a></p>
+    <nav>
+        <a href="index.html"><button type = "button">Forside</button></a>
+        <a href="boennebluelake.html"><button type = "button">Bønner</button></a>
+        <a href="aertalderman.html"><button type = "button">Ærter</button></a>
+        <a href="basilikum.html"><button type = "button">Basilikum</button></a>
+    </nav>
 
-            <p> Har du lyst til at bidrage med at tilføje planter i plantedatabasen, hører vi meget gerne fra dig. 
-            Vi kan altid bruge flere grønne fingre på tastaturer, 
-            så databasen efterhånden bliver fyldt mere og mere op.</p>
-            <img src="img/Forside-hoejbed2.jpg" alt="Forside billede" style="width:800px;">
-        </article>
-    </section>
+    <main>
+        <section>
+            <article>
+                <img src="img/Forside-hoejbed1.jpg" alt="Forside billede">
+                <p>Siden indeholder informationer om planter, der kan dyrkes i danske haver - 
+                både grøntsager, krydderurter, blomster og træer.  Det primære fokus ligger dog på spiselige planter.</p>
+                <p>Vi brænder for at være selvforsynende og håber, at vi kan inspirere andre til at gå i samme retning - 
+                det påvirker både din families sundhed og vores alles klima i en positiv retning.</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Plantedatabasen</h2>
 
-    <section>
-        <article>
-            <h4>Nyeste planter i databasen</h4>
-            <p>- Bønne, Blue Lake<a href="boennebluelake.html"><br><img src="img/BeanBlueLake.jpg" alt="Blue lake Bønne" style="width:200px;"></a></p>
-            <p>- Ært, Alderman<a href="aertalderman.html"><br><img src="img/PeaAlderman.jpg" alt="Alderman Ært" style="width:200px;"></a></p>
-            <p>- Basilikum, Ocimum Basilicum<br><a href="basilikum.html"><img src="img/BasilikumOcimumBasilicum.jpg" alt="Ocimum Basilicum" style="width:200px;"></a></p>
-        </article>
-    </section>
+                <p> Vores plantedatabase vokser dag for dag og indeholder al den information, 
+                som du har brug for, hvis du vil dyrke dine egne planter.</p> 
+                <p>Hvis du mangler informationer om en plante, 
+                opdager forkerte informationer eller mangler en plante, 
+                er du velkommen til at skrive til os på <a href="mailto:info@gronnedromme.dk">info@gronnedromme.dk.</a>
+                En del af vore informationer er fra <a href="https://da.wikipedia.org/wiki/Forside">den danske wikipedia.</a></p>
+
+                <p> Har du lyst til at bidrage med at tilføje planter i plantedatabasen, hører vi meget gerne fra dig. 
+                Vi kan altid bruge flere grønne fingre på tastaturer, 
+                så databasen efterhånden bliver fyldt mere og mere op.</p>
+                <img src="img/Forside-hoejbed2.jpg" alt="Forside billede">
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Nyeste planter i databasen</h2>
+                <ul>
+                    <li><a href="boennebluelake.html"> Bønne, Blue Lake<br><img src="img/BeanBlueLake.jpg" alt="Blue lake Bønne"></a></li>
+                    <li><a href="aertalderman.html"> Ært, Alderman<br> <img src="img/PeaAlderman.jpg" alt="Alderman Ært"></a></li>
+                    <li><a href="basilikum.html"> Basilikum, Ocimum Basilicum<br> <img src="img/BasilikumOcimumBasilicum.jpg" alt="Basilikum"></a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer> © Grønne Drømme 2021 </footer>
 </body>
 </html>
