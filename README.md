@@ -1,2 +1,2 @@
 # V1 Repository
-Learning to code in HTML and css
+Learning to code in HTML and CSS
