@@ -1,7 +1,8 @@
 :root {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
 }
 
 body {
@@ -24,9 +25,16 @@ header {
     line-height: 3vh;
 }
 
-header>h1 { font-size: 5vh; }
-header>h2 { font-size: 3vh; }
-.logo { font-family: 'Berkshire Swash', cursive; }
+header>h1 {
+    font-size: 5vh;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+header>h2 { 
+    font-size: 3vh; 
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
 
 nav {
     text-align: center;
@@ -78,11 +86,13 @@ img.centered {
 
 a {
     text-decoration: none;
-    color: mediumseagreen;
-    font-size: 20px;
+    color: mediumseagreen;  
 }
 
-a>img:hover, button:hover {
+li>a { font-size: 20px; }
+nav>a { height: 0px; }
+
+/* a>img:hover, button:hover {
     transition: all 0.2;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -92,8 +102,8 @@ a>img:hover, button:hover {
     transform: translate(-1px,-1px);
     -webkit-transform: translate(-1px,-1px);
     -moz-transform: translate(-1px,-1px);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-} 
+    box-shadow: 1% 1% 5% rgba(0,0,0,0.1);
+}  */
 
 button {
     width: 12vw;
@@ -104,8 +114,7 @@ button {
     background-color: #ffffff;
     color:darkgrey;
     border: none;
-    border-radius: 1ch;
-    float:none;
+    border-radius: 1vh; 
 }
 
 h1 , h2 { color:darkgreen; }
