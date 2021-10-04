@@ -1,3 +1,4 @@
+/* Reset root margin and padding and change font */
 :root {
     margin: 0px;
     padding: 0px;
@@ -9,9 +10,11 @@ body {
     background-color: hsl(0, 0%, 88%);
     color: darkslategray;
     font-family: sans-serif;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 100vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 100%;
 }
 
 header {
@@ -24,13 +27,13 @@ header {
     top: 0;
 }
 
-header>h1 {
+header h1 {
     font-size: 5vh;
     font-family: 'Jost', sans-serif;
     font-weight: 600;
 }
 
-header>h2 { 
+header h2 { 
     font-size: 3vh; 
     font-family: 'Jost', sans-serif;
     font-weight: 400;
@@ -43,7 +46,7 @@ nav {
     position: sticky;
     top: 0;
     margin-top: 0px;
-    width: 100vw;
+    width: 100%;
     height: 7.5vh;
     z-index: 3;
 }
@@ -69,7 +72,6 @@ footer {
     background-color: darkgreen;
     color: white;
     height: 30px;
-    width: 100%;
     padding: 10px;
 }
 
@@ -81,17 +83,15 @@ img.centered {
     margin-right: auto;
     margin-left: auto;
 }
-img.fLeft { float: left; margin-right: 10px;}
-img.fRight { float: right; margin-left: 10px;}
+img.fLeft { float: left; margin-right: 10px; margin-bottom: 10px; }
+img.fRight { float: right; margin-left: 10px; margin-bottom: 10px; }
 
 a {
     text-decoration: none;
     color: mediumseagreen;  
 }
 
-ul {
-    list-style-type: none;
-}
+ul { list-style-type: none; }
 
 li>a { font-size: 20px; }
 nav>a { height: 0px; }
@@ -118,7 +118,7 @@ button:hover {
     -moz-transform: translate(-2%,-2%);
 }
 
-button {
+nav button {
     width: 12vw;
     font-size: 3vh;
     border-radius: 4px;
@@ -133,15 +133,17 @@ button {
 h1,h2,h3 { color:darkgreen; }
 article h1,article h2, article h3 { margin-top: 0px;}
 
+.biggerText { font-size: 1.36rem; line-height: 2.07rem; }
+
 .sidebar {
     background-color: hsla(0, 0%, 0%, .1);
     padding: 10px;
     padding-left: 15px;
     border-radius: 0.2rem; 
     width: 180px;
-    height: 100%;
+    height: 1000px;
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .sidebar ul { 
