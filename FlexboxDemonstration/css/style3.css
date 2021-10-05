@@ -1,0 +1,49 @@
+main>div {
+    width: 590px;
+    height: 590px;
+    
+    margin: 20px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #ccc;
+
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #bbb;
+}
+
+.grayBox {
+    width: 180px;
+    height: 180px;
+
+    margin: 5px;
+
+    display: flex;
+
+    background-color: #999;
+
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #888;
+}
+
+.yellowBox {
+    width: 60px;
+    height: 60px;
+    
+    background-color: #ffff00;
+
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #dddd00;
+}
+
+.left { justify-content: flex-start; }
+.middleX { justify-content: center; }
+.right { justify-content: flex-end; }
+
+.top { align-items: flex-start; }
+.middleY { align-items: center; }
+.bottom { align-items: flex-end; }

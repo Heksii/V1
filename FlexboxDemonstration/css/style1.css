@@ -1,0 +1,41 @@
+.flexContainer>div {
+    width: auto;
+    min-width: 7rem;
+    height: 5rem;
+    border-radius: 5px;
+    border-style: outset;
+    margin: 5px;
+    padding: 5px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* Child Classes */
+
+/* Farver */
+
+.red {
+    background-color: hsl(0, 80%, 50%);
+    border-color: hsl(0, 70%, 50%); 
+}
+.yellow { 
+    background-color: hsl(50, 80%, 50%); 
+    border-color: hsl(50, 70%, 50%); 
+}
+.green { 
+    background-color: hsl(90, 80%, 50%); 
+    border-color: hsl(90, 70%, 50%); 
+}
+.blue { 
+    background-color: hsl(200, 80%, 50%); 
+    border-color: hsl(200, 70%, 50%); 
+}
+
+/* Parent Classes */
+
+/* Direction */
+
+.row { flex-direction: row; }
+.reverseRow { flex-direction: row-reverse; }
+.column { flex-direction: column; }
+.reverseColumn { flex-direction: column-reverse; }

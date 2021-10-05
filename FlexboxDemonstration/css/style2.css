@@ -1,0 +1,75 @@
+.flexContainer>div {
+    width: auto;
+    min-width: 7rem;
+    height: 5rem;
+    border-radius: 5px;
+    border-style: outset;
+    margin: 5px;
+    padding: 5px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* Child Classes */
+
+/* Størrelse */
+
+.flexContainer>div.wideChild { width: 14rem; }
+
+/* Order */
+
+.flexContainer>div.order1 { order: 1;}
+.flexContainer>div.order2 { order: 2;}
+.flexContainer>div.order3 { order: 3;}
+.flexContainer>div.order4 { order: 4;}
+
+/* Flex */
+
+.flexContainer>div.auto { flex: auto; }
+
+/* Farver */
+
+.red {
+    background-color: hsl(0, 80%, 50%);
+    border-color: hsl(0, 70%, 50%); 
+}
+.yellow { 
+    background-color: hsl(50, 80%, 50%); 
+    border-color: hsl(50, 70%, 50%); 
+}
+.green { 
+    background-color: hsl(90, 80%, 50%); 
+    border-color: hsl(90, 70%, 50%); 
+}
+.blue { 
+    background-color: hsl(200, 80%, 50%); 
+    border-color: hsl(200, 70%, 50%); 
+}
+
+/* Parent Classes */
+
+/* Størrelse */
+
+.wide { width: 60%; }
+.tall { height: 15rem; }
+
+.fixWidth { width: 32rem; }
+
+/* Direction */
+
+.row { flex-direction: row; }
+.reverseRow { flex-direction: row-reverse; }
+.column { flex-direction: column; }
+.reverseColumn { flex-direction: column-reverse; }
+
+/* Alignment */
+
+.flexStart { justify-content: flex-start; }
+.flexEnd { justify-content: flex-end; }
+.center { justify-content: center; }
+.spaceBetween { justify-content: space-between; }
+.spaceAround { justify-content: space-around; }
+.alignItemsFlexStart { align-items: flex-start; }
+.alignItemsCenter { align-items: center; }
+.wrap { flex-wrap: wrap; }
+.alignSelfFlexEnd { align-self: flex-end; }

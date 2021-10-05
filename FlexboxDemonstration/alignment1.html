@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>CSS Flexbox</h1>
+    </header>
+
+    <nav>
+        <a href="index.html"><button>Previous</button></a>
+        <a href="alignment2.html"><button>Next</button></a>
+    </nav>
+
+    <main>
+        <h1>Alignment 1.</h1>
+
+        <h2>01. justify-content: flex-start;</h2>
+        <div class="flexContainer wide flexStart">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>02. justify-content: flex-end;</h2>
+        <div class="flexContainer wide flexEnd">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>03. justify-content: center;</h2>
+        <div class="flexContainer wide center">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>04. justify-content: space-between;</h2>
+        <div class="flexContainer wide spaceBetween">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>05. justify-content: space-around;</h2>
+        <div class="flexContainer wide spaceAround">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>06. align-items: flex-start;</h2>
+        <div class="flexContainer tall wide flex-start">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>07. align-items: center;</h2>
+        <div class="flexContainer tall wide alignItemsCenter">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue">4</div>
+        </div>
+
+        <h2>08. flex-wrap: wrap;</h2>
+        <div class="flexContainer tall fixWidth wrap">
+            <div class="red wideChild">1</div> 
+            <div class="yellow wideChild">2</div>
+            <div class="green wideChild">3</div> 
+            <div class="blue wideChild">4</div>
+        </div>
+
+        <h2>09. align-self: flex-end;</h2>
+        <div class="flexContainer wide tall">
+            <div class="red">1</div> 
+            <div class="yellow">2</div> 
+            <div class="green">3</div> 
+            <div class="blue alignSelfFlexEnd">4</div>
+        </div>
+
+        <h2>10. order;</h2>
+        <div class="flexContainer">
+            <div class="red order4">1</div> 
+            <div class="yellow order3">2</div> 
+            <div class="green order2">3</div> 
+            <div class="blue order1">4</div>
+        </div>
+
+        <h2>11. auto;</h2>
+        <div class="flexContainer wide center">
+            <div class="red auto">1</div>
+            <div class="yellow ">2</div> 
+            <div class="green ">3</div> 
+            <div class="blue auto">4</div>
+        </div>
+    </main>
+</body>
+</html>
