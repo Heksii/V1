@@ -1,0 +1,43 @@
+.container {
+    margin: 50px auto;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fakeHeader {
+    background-color: #666;
+    height: 50px;
+}
+
+.fakeMain {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.fakeAside {
+    width: 20%;
+    background-color: #aaa;
+}
+
+.fakeFooter {
+    background-color: #666;
+    height: 50px;
+}
+
+.fakeHeader h2, .fakeMain h2, .fakeFooter h2 {
+    margin: 0, auto;
+    margin-top: 0;
+    padding: 0px;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.fakeMain article { flex:auto; }
+
+.fakeHeader h2, .fakeFooter h2 { color: #ccc; }
+.fakeMain h2 { color: #666; }
+.fakeAside h2 { color: #666; }
