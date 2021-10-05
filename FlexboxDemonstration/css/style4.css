@@ -4,6 +4,7 @@
     height: 600px;
     display: flex;
     flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.405);
 }
 
 .fakeHeader {
