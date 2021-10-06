@@ -1,0 +1,15 @@
+.imageList {
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.imageList>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+    font-size:2vmin;
+    width: 220px;
+}

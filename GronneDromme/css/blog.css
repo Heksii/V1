@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: hsla(0, 0%, 0%, .1);
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 0.2rem; 
+    width: 180px;
+    height: 1050px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sidebar ul { 
+    list-style: none; 
+    padding-left: 0px;
+}
+
+.sidebar span {
+    height: 40px;
+    line-height: 40px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sidebar img { 
+    margin: 5px;
+    height: 40px;
+    float: left;
+}
