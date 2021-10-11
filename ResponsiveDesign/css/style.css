@@ -1,0 +1,174 @@
+:root, body, ul
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body, main, nav, a, article, ul
+{
+    display: flex;
+}
+
+article, a
+{
+    color: hsl(180, 25%, 25%)
+}
+
+header
+{
+    display: none;
+    padding: 1rem;
+}
+
+body
+{
+    flex-direction: column;
+    justify-content: space-between;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+    background-color: hsl(0, 0%, 86%);
+}
+
+main
+{
+    flex: auto;
+    flex-direction: column;
+    min-width: 0;
+    margin: 1.5rem;
+}
+
+section
+{
+    flex-flow: column wrap;
+}
+
+nav
+{
+    justify-content: right;
+    position: sticky;
+    top: 0;
+}
+
+nav a
+{
+    flex: auto;
+    display: none;  
+    color: whitesmoke;
+    height: 100%;
+    line-height: 2.5rem;
+}
+
+nav, footer
+{
+    height: 2.5rem;
+    width: 100%;
+
+    background-color: hsl(27, 67%, 30%);
+}
+
+a:hover
+{
+    background-color: hsla(0,0,1, .5);
+}
+
+h1
+{
+    color: hsl(27, 67%, 30%);
+    text-shadow: .05rem .05rem .2rem rgba(0, 0, 0, 0.3);
+}
+
+h2,h3,p
+{
+    margin: .5rem 0;
+}
+
+p
+{
+    font-size: 1rem;
+}
+
+ul, article
+{
+    flex-direction: column;
+    
+    margin-top: 1rem;
+    width: 100%;
+}
+
+ul 
+{
+    align-items: center;
+}
+
+a
+{
+    flex-direction: column;
+    align-items: center;
+
+    text-decoration: none;
+    text-align: center;
+}
+
+nav img
+{
+    margin: auto .2rem;
+    min-width: 0;
+    max-width: 400px;
+    height: 2.4rem;
+}
+
+@media only screen and (min-width: 501px) {
+    ul
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    a
+    {
+        margin: 0 .7rem;
+    }
+
+    main
+    {
+        max-width: 1000px;
+    }
+
+    header
+    {
+        max-width: 1000px;
+        display: flex;
+    }
+
+    header img 
+    {
+        width: 100%;
+    }
+
+    article
+    {
+        justify-content: center;
+        
+    }
+
+    nav
+    {
+        justify-content: space-between;
+    }
+
+    nav img 
+    {
+        display: none;
+    }
+
+    nav a
+    {
+        display: block;
+    }
+}
