@@ -31,6 +31,17 @@
         <section>
             <article>
                 <h2>About birds</h2>
+
+                <img
+                srcset= "img/black-cockatoo-400w.jpg 400w,
+                         img/black-cockatoo-700w.jpg 700w,
+                         img/black-cockatoo-1920w.jpg 1920w"
+                sizes=  "(max-width: 400px) 400px,
+                         (max-width: 700px) 700px,
+                         (min-width: 701px) 1920px"
+                src=    "img/black-cockatoo-400w.jpg"
+                alt=    "black cockatoo">
+
                 <p>
                     Birds, also known as Aves or avian dinosaurs, are a group of endothermic vertebrates, characterised by feathers, toothless beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet lightweight skeleton. 
                 </p>
@@ -43,6 +54,12 @@
                 <p>
                     The digestive and respiratory systems of birds are also uniquely adapted for flight. Some bird species of aquatic environments, particularly seabirds and some waterbirds, have further evolved for swimming.
                 </p>
+
+                <picture>
+                    <source media="(max-width: 500px)" srcset="img/Ostrich-400w.jpg">
+                    <source media="(min-width: 501px)" srcset="img/Ostrich-1920w.jpg">
+                    <img src="img/Ostrich-400w.jpg" alt="Ostrich"> 
+                </picture>
             </article>
 
             <article>
@@ -109,7 +126,6 @@
                         <img src="img/Ostrich.jpg" alt="Ostrich">
                     </a>
                 </ul>
-                
             </article>
         </section>
     </main>
