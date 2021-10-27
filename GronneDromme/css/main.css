@@ -27,8 +27,15 @@ header {
     top: 0;
 }
 
-header h1 {
-    font-size: 5vh;
+h1 {
+    font-size: 2rem;
+
+    margin-bottom: .75rem;
+    line-height: 2rem;
+}
+
+.logo {
+    font-size: 4vh;
     font-family: 'Jost', sans-serif;
     font-weight: 600;
 }
@@ -98,7 +105,7 @@ li>a { font-size: 20px; }
 nav>a { height: 0px; }
 
 a>img:hover, button:hover {
-    transition: all 0.2;
+    transition: ease-in-out 0.2;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transform: scale(0.97);
@@ -111,6 +118,13 @@ a>img:hover {
     transform: translate(-2px,-2px);
     -webkit-transform: translate(-2px,-2px);
     -moz-transform: translate(-2px,-2px);
+}
+
+.kontakt {
+    background-color: #ff8888;
+    color: #ffffff;
+
+    align-self: flex-end;
 }
 
 button:hover {
